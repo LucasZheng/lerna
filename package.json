@@ -1,0 +1,19 @@
+{
+  "name": "utils-hooks",
+  "private": true,
+  "description": "前端公用方法和vue hooks",
+  "scripts": {
+    "build": "rollup -c",
+    "deploy": "npm run build && npm publish",
+    "watch": "rollup -c -w"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/useHttp"
+    ]
+  },
+  "devDependencies": {
+    "rollup": "^2.79.1",
+    "lerna": "^5.5.2"
+  }
+}
