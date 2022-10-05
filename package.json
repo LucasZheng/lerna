@@ -1,6 +1,5 @@
 {
   "name": "utils-hooks",
-  "private": true,
   "description": "前端公用方法和vue hooks",
   "scripts": {
     "build": "rollup -c",
