@@ -1,6 +1,6 @@
 {
   "name": "@lucas/use-http",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "http请求底层封装",
   "author": "zq010",
   "license": "ISC",
