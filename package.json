@@ -12,7 +12,7 @@
     ]
   },
   "devDependencies": {
-    "rollup": "^2.79.1",
-    "lerna": "^5.5.2"
+    "lerna": "^3.22.1",
+    "rollup": "^2.79.1"
   }
 }
