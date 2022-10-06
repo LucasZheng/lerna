@@ -28,7 +28,7 @@ function getBuildDirectories(packageName, folderName) {
   let ROOT_DIR = __dirname;
   let SOURCE_DIR = folderName
     ? path.join(__dirname, "packages", folderName)
-    : path.join(__dirname, "packages", toCamelCase(packageName));
+    : path.join(__dirname, "packages", toCamelCase(packageName.split("/")[1]));
 
   // Update if we're not running from root
   if (process.cwd() !== __dirname) {

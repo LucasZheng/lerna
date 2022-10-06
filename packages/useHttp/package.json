@@ -1,5 +1,5 @@
 {
-  "name": "use-http",
+  "name": "@lucas/use-http",
   "version": "1.0.2",
   "description": "http请求底层封装",
   "author": "zq010",
@@ -25,5 +25,5 @@
     "vite": "^3.1.3",
     "vue": "^3.2.39"
   },
-  "gitHead": "60da6dedc692d2b3789270d220af6a8287940f09"
+  "gitHead": "84c13e0e369f4fe344dfc0119918e8c3e4c3162e"
 }
